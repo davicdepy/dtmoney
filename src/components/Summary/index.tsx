@@ -11,21 +11,21 @@ export function Summary() {
                     <p>Entradas</p>
                     <img src={incomeImg} alt="Entradas"/>
                 </header>
-                <strong>R$1000,00</strong>
+                <strong>G$ 25.000.000</strong>
             </div>
             <div>
                 <header>
                     <p>Salidas</p>
                     <img src={outcomeImg} alt="Salidas"/>
                 </header>
-                <strong>R$1000,00</strong>
+                <strong>G$ 850.000</strong>
             </div>
             <div className="highlight-background">
                 <header>
-                    <p>Entradas</p>
+                    <p>Total</p>
                     <img src={totalImg} alt="Total"/>
                 </header>
-                <strong> R$500,00</strong>
+                <strong> G$ 24.400.000</strong>
             </div>
         </Container>
     )
